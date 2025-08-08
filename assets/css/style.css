@@ -1101,7 +1101,7 @@ header {
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .secondary-cta__button {
     display: flex;
     flex-direction: column;
@@ -1184,7 +1184,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5em;
-  letter-spacing: -0.625%;
+  letter-spacing: -0.625px;
   color: #a5acba;
   margin: 0;
 }
@@ -1219,7 +1219,7 @@ header {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.4667em;
-  letter-spacing: -0.667%;
+  letter-spacing: -0.667px;
   color: #a5acba;
 }
 
@@ -1276,7 +1276,7 @@ header {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5em;
-  letter-spacing: -0.625%;
+  letter-spacing: -0.625px;
   color: #f9f9f9;
   margin: 0;
 }
@@ -1296,7 +1296,7 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
-  letter-spacing: -0.625%;
+  letter-spacing: -0.625px;
   color: #a5acba;
   text-decoration: none;
   display: block;
@@ -1331,8 +1331,8 @@ header {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5em;
-  letter-spacing: -0.625%;
+  line-height: 1.5rem;
+  letter-spacing: -0.625px;
   color: #a5acba;
   text-align: center;
   margin: 0;
@@ -1381,12 +1381,12 @@ header {
   .footer__copyright-text {
     font-size: 14px;
     line-height: 1.4286em;
-    letter-spacing: -0.714%;
+    letter-spacing: -0.714px;
   }
 }
 
 /* Footer Section Responsive Design - Mobile */
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .footer {
     padding: 32px 0;
   }
@@ -1446,6 +1446,6 @@ header {
   .footer__copyright-text {
     font-size: 14px;
     line-height: 1.4286em;
-    letter-spacing: -0.714%;
+    letter-spacing: -0.714px;
   }
 }
