@@ -206,7 +206,7 @@ header {
 
 .hero__title {
   display: block;
-  width: 35.66rem;
+  width: 34.66rem;
   margin: 0 auto;
 }
 
@@ -459,8 +459,8 @@ header {
   }
 
   .cta__text {
-    align-items: center;
-    text-align: center;
+    align-items: start;
+    text-align: start;
     gap: 16px;
   }
 
@@ -1079,8 +1079,6 @@ header {
 
 .secondary-cta__login{
 
-
-
   padding: 12px 18px;
   background-color: var(--color-primary-blue);
   border: none;
@@ -1091,6 +1089,7 @@ header {
   line-height: 1.4667em;
   color: #fff;
   cursor: pointer;
+  display: none;
 }
 
 .secondary-cta__btn:hover {
@@ -1099,6 +1098,9 @@ header {
 
 @media (max-width: 768px) {
 
+  .secondary-cta__login{
+    display: inline;
+  }
 }
 
 @media (max-width: 376px) {
@@ -1113,6 +1115,7 @@ header {
 
   .secondary-cta__login{
     width: 100%;
+    display: inline;
   }
 
   .secondary-cta__btn{
